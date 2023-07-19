@@ -1,0 +1,87 @@
+@media (min-width:376px) and (max-width:1229px) {
+    .div3 .title br {
+        display: none;
+    }
+    .div3 .description br {
+        display: none;
+    }
+    .div3 .email-address input::placeholder {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@media (min-width: 1230px) and (max-width:10000px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+            "i1 i2"
+            "i3 i2"
+        ;
+        width: 100%;
+        position: relative;
+    }
+    .div1 {
+        grid-area: i1;
+        margin-top: 71px;
+        margin-left: 160px;
+        padding-left: 10px;
+    }
+    .div1 img {
+        width: 160px;
+    }
+    .div2 {
+        grid-area: i2;
+        position: absolute;
+        right: 0;
+        width: 605px;
+        height: 100%;
+    }
+    .div3 {
+        grid-area: i3;
+        height: 600px;
+    }
+    .div3 .title {
+        font-size: 64px;
+        margin-top: 60px;
+        margin-left: 160px;
+        letter-spacing: 16px;
+        text-align: start;
+        line-height: 69px;
+    }
+    .div3 .description {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 160px;
+        line-height: 28px;
+        text-align: start;
+        width: 430px;
+    }
+    .div3 .description br {
+        display: none;
+    }
+    .div3 .email-address {
+        height: 56px;
+        width: 445px;
+        margin-left: 155px;
+    }
+    .div3 .email-address input::placeholder {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .div3 .email-address button {
+        width: 99px;
+    }
+    .div3 .email-address input::placeholder {
+        position: relative;
+        left: -10px;
+        top: 0px;
+    }
+}
+
+@media (max-height: 710px) {
+    .div3 .title {
+        margin-top: 15px;
+    }
+}
