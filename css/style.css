@@ -17,6 +17,7 @@ header {
 header img {
 	width: 150px;
 }
+
 .container {
 	padding-top: 100px;
 	min-height: 100vh;
@@ -28,20 +29,24 @@ header img {
 	background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 	padding-bottom: 50px;
 }
+
 .container .left {
 	width: 100%;
 	padding: 50px 30px 0 30px;
 }
+
 .container .right {
 	width: 100%;
 	height: 300px;
 	background-image: url(/images/hero-mobile.jpg);
 	background-size: cover;
 }
+
 .container .right img {
 	width: 100%;
 	height: 100%;
 }
+
 .container .left h1 {
 	letter-spacing: .5rem;
 	text-align: center;
@@ -51,10 +56,12 @@ header img {
 	color: hsl(0, 36%, 70%);
 	line-height: 3.5rem;
 }
+
 .container .left h1 span {
 	color: hsl(0, 6%, 24%);
 	font-weight: 700;
 }
+
 .container .left p {
 	max-width: 450px;
 	text-align: center;
@@ -63,6 +70,7 @@ header img {
 	line-height: 1.5rem;
 	margin: 20px auto 40px auto;
 }
+
 .container form {
 	position: relative;
 	display: block;
@@ -71,6 +79,7 @@ header img {
 	max-width: 400px;
 	margin: 0 auto;
 }
+
 .container form input {
 	position: absolute;
 	width: 100%;
@@ -82,10 +91,13 @@ header img {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.1rem;
 }
+
+
 .container form label {
 	visibility: hidden;
 	position: absolute;
 }
+
 .container form button {
 	cursor: pointer;
 	position: absolute;
@@ -100,16 +112,19 @@ header img {
 	box-shadow: 0px 0px 18px 1px #f4aaab82;
 	transition: .3s ease box-shadow;
 }
+
 .container form button:hover {
 	background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsla(0, 52%, 80%, 0.781));
 	box-shadow: 0px 0px 13px 2px #f4aaabbf;
 }
+
 .container form input::placeholder {
 	color: hsl(0, 36%, 70%);
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.1rem;
 	opacity: .8;
 }
+
 .container form .error-icon {
 	display: inline-block;
 	position: absolute;
@@ -117,6 +132,7 @@ header img {
 	top: 24%;
 	display: none;
 }
+
 .container form .error-text {
 	position: absolute;
 	left: 30px;
@@ -124,6 +140,7 @@ header img {
 	font-size: 1rem;
 	display: none;
 }
+
 .container form.error .error-icon,
 .container form.error .error-text {
 	display: block;
@@ -132,18 +149,6 @@ header img {
 	border: 2px solid hsl(0, 93%, 68%);
 }
 
-footer {
-	padding: 10px 0;
-	background-color: black;
-	color: white;
-	text-align: center;
-	font-size: .8rem;
-	line-height: 1.2rem;
-}
-footer a {
-	color: aqua;
-	text-decoration: none;
-}
 
 @media only screen and (min-width: 768px) {
 	header {
@@ -184,4 +189,4 @@ footer a {
 	.container form button {
 		width: 80px;
 	}
-}
+} */
